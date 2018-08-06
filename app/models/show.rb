@@ -5,7 +5,6 @@ class Show < ActiveRecord::Base
 
   def self.most_popular_show
     # self.order(rating: :desc).limit(1)[0]
-    self.maximum(:rating)
   end
 
   def self.lowest_rating
