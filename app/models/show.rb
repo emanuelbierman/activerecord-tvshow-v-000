@@ -27,5 +27,3 @@ class Show < ActiveRecord::Base
     self.order(:name)
   end
 end
-
-# * `shows_by_alphabetical_order`: returns an array of all of the shows sorted by alphabetical order according to their names. *hint*: use the `order` Active Record method.
